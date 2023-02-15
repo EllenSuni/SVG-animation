@@ -1,0 +1,15 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="stop" viewBox="0 0 512 512">
+        <circle cx="256" cy="256" r="256" fill="red"/>
+        <line x1="160" y1="160" x2="352" y2="352" stroke="rgb(256,256,256)" stroke-width="20"/>
+        <line x1="352" y1="160" x2="160" y2="352" stroke="rgb(256,256,256)" stroke-width="20"/>
+    </symbol>
+</svg>
+
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+    <symbol id="envelope" viewBox="0 0 512 512">
+        <circle cx="256" cy="256" r="256" fill="red"/>
+        <line x1="160" y1="160" x2="352" y2="352" stroke="rgb(256,256,256)" stroke-width="20"/>
+        <line x1="352" y1="160" x2="160" y2="352" stroke="rgb(256,256,256)" stroke-width="20"/>
+    </symbol>
+</svg>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Inline -->
+    <svg width="512" height="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="256" cy="256" r="232" fill="transparent" stroke="rgb(61,179,158)" stroke-width="48"/>
+        <polyline points="170,260 240,340 340,160" fill="none" stroke="rgb(61,179,158)" stroke-width="48"
+            stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <svg width="512" height="512" viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <rect y="77" width="512" height="357" fill="rgb(0,0,0)" rx="65" ry="65" />
+        <rect y="260" width="512" height="80" fill="rgb(256,256,256)"/>
+    </svg>
+
+    <!-- From external files -->
+    <svg width="512" height="512">
+        <use xlink:href="images/svg.svg#stop"></use>
+    </svg>
+    <svg width="512" height="512">
+        <use xlink:href="images/envelope.svg#envelope"></use>
+    </svg>
+
+    <!-- Inline -->
+    <svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="220" cy="220" r="220"/>
+        <circle cx="220" cy="220" r="180" fill="white"/>
+        <line x1="362" y1="362" x2="492" y2="492" stroke="black" stroke-width="40" stroke-linecap="round"/>
+    </svg>
+</body>
+</html>
