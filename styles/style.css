@@ -1,0 +1,32 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+svg {
+    margin: 30px;
+    flex-basis: 400px;
+}
+
+ul {
+    max-width: 400px;
+    width: 100%;
+    margin: 15px auto;
+    display: flex;
+    justify-content: space-around;
+}
+a {
+    font-family: 'Inknut Antiqua', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 64px;
+    color: #415061;
+    padding: 5px 10px;
+}
+
+a:hover {
+    background-color: #415061;
+    box-shadow: 1px 1px 10px #415061;
+    color: #F5F5F5;
+}
